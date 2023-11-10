@@ -1,0 +1,989 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: navy;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    z-index: 20000;
+    background-color: navy;
+}
+.img{
+    width:10vw;
+}
+.img>img{
+    animation: mymove 5s infinite;
+}
+header>div{
+    display: inline;
+}
+
+header>nav{
+    display: inline;
+    color: red;
+    margin: 20px;
+    position:absolute;
+    /*left: 500px;*/
+    right: 0;
+    top: 0;
+}
+header>nav>a{
+    margin: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #F2F7A1;
+    text-decoration: none;
+}
+/*////////////////////////////////////////////////////////*/
+#mob-nav>ul {
+    list-style: none;
+    margin: 0;
+}
+#mob-nav>ul>li{
+    margin-bottom: 1vh;
+}
+#mob-nav {
+    display: none;
+    background-color: lightgray;
+    position: absolute;
+    width: 27vw;
+    height: 20vh;
+    top: 11vh;
+    left: 65vw;
+}
+#header>.nav-icon {
+    height: fit-content;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.button {
+    width: 40px;
+    height: 40px;
+    background-image:url("../assets/image/icons8-menu-button-48.png");
+    background-position: center;
+    border: none;
+    background-color: navy;
+}
+#btn-on {
+    display: none;
+}
+#btn-off {
+    display: none;
+    position: relative;
+    left: 87vw;
+    top: -14vh;
+    width:8vw ;
+}
+/*////////////////////////////////////////////////////////////////*/
+.sec1{
+    height: 96vh;
+    position: relative;
+    z-index: 2000;
+}
+#im1>img{
+    position: relative;
+    /*left: 10px;*/
+    width: 300px;
+    height: 500px;
+
+}
+
+#im1{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 150px;
+    top: 20vh;
+    border-radius:10%;
+    background-image: url("../assets/image/background.jpeg");
+    /*background-color: navy;*/
+}
+
+
+.sec1>div:first-child{
+    position: relative;
+    top: 18.8vh;
+}
+.sec1>h1{
+    position: relative;
+    color: #0B666A;
+    font-weight: bold;
+    font-size: 60px;
+    left: 37.5vw;
+    top: -60vh;
+    text-shadow: 3px 3px white;
+
+}
+.sec1>p{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    left: 37.5vw;
+    top: -60vh;
+}
+
+.sec1>img{
+    border: black solid 2px;
+}
+
+#div2{
+    position: absolute;
+    bottom: -9vh;
+    left: 37vw;
+}
+
+#div2>a>img{
+    border: black solid 3px;
+    margin: 3px;
+    transition-property: width;
+    transition-duration: 0.5s;
+
+}
+#div2>a>img:hover{
+     width: 100px;
+}
+.sec1>button{
+    width: 13.25vw;
+    height: 8.4vh;
+    /*border-radius: 10px;*/
+    font-weight: bold;
+    background-color: navy;
+    border-color: white;
+    color: white;
+    position: relative;
+    left: 37.5vw;
+    top: -60vh;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.sec1>button:hover{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+#d1{
+    width: 42vw;
+    height: 3px;
+    background:black ;
+    position: absolute;
+    left: -40vw;
+    top: 3vh;
+
+}
+#d2{
+    width: 42vw;
+    height: 3px;
+    background:black ;
+    position: absolute;
+    left: 20vw;
+    top: 3vh;
+}
+.sec2{
+    position: relative;
+    z-index: 2000;
+    top: 10vh;
+}
+#h1{
+    position: absolute;
+    left: 37.5vw;
+    top:12vh;
+}
+#h1>h1{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -5vh;
+    left: 5vw;
+
+}
+.sec2>div{
+    width: 22.5vw;
+    height: 32vh;
+    position: absolute;
+    left: 37.5vw;
+    top: 32vh;
+}
+.sec2>div>p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+
+}
+
+.sec2>img{
+    width: 25vw;
+    height: 55vh;
+    border-radius: 100%;
+    position: relative;
+    left: 63.75vw;
+    top: 20vh;
+}
+
+.sec3{
+    position: relative;
+    z-index: 2000;
+}
+.sec3>h1{
+    font-weight: bold;
+    color: #FFDD83;
+    font-size: 30px;
+    position: relative;
+    left:32vw;
+    top: 24vh;
+}
+.sec3>h3{
+    font-weight: bold;
+    color: #F2F7A1;
+    font-size: 25px;
+    position: relative;
+    left:15vw;
+    top: 30vh;
+    z-index: 2000;
+}
+footer>div{
+    display: inline;
+    margin: 100px;
+    /*position: ;*/
+}
+footer>div>a{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+footer{
+    width: 90vw;
+    height: 16vh;
+    background-color: white;
+    position: relative;
+    top: -4vh;
+    border-radius: 30px;
+    z-index: 2000;
+}
+center{
+    position: relative;
+    top: 40vh;
+}
+footer>div>img{
+    position: relative;
+    top: 3.2vh;
+}
+
+.divlast2{
+    width: 90vw;
+    aspect-ratio:1/1;
+    clip-path: polygon(0 56%, 0% 100%, 43% 100%);
+    background-color: black;
+    position: fixed;
+    bottom: -10vh;
+}
+.sec3>div{
+    width: 30vw;
+    height: 3.2vh;
+    background-color: lightseagreen;
+    position: relative;
+    left: 33.75vw;
+    top: 22vh;
+    border-radius: 10px;
+}
+#ui{
+    width: 320px;
+    height: 15px;
+    background-color:#F2F7A1;
+    position: relative;
+    left:2px;
+    top: 2px;
+    border-radius: 10px;
+    animation:uiux 5s linear;
+    animation-iteration-count: infinite;
+}
+#ui>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 15vw;
+}
+@keyframes uiux {
+    from{
+        width: 0vw;
+        background-color: red;
+        margin-right: 0px;
+    }
+    to{
+        width:24vw ;
+        margin-right: 24vw;
+    }
+}
+#video{
+    width:25.5vw;
+    height: 2.4vh;
+    background-color:#F2F7A1;
+    position: relative;
+    left:0.15vw;
+    top: 0.32vh;
+    border-radius: 10px;
+    animation:video 5s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes video {
+    from{
+        width: 0vw;
+        background-color: red;
+        margin-right: 0px;
+    }
+    to{
+        width:25.5vw ;
+        margin-right: 25.5vw;
+    }
+}
+#video>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 15vw;
+}
+#photo{
+    width: 27vw;
+    height: 2.4vh;
+    background-color:#F2F7A1;
+    position: relative;
+    left:0.15vw;
+    top: 0.32vh;
+    border-radius: 10px;
+    animation:photo 5s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes photo {
+    from{
+        width: 0vw;
+        background-color: red;
+        margin-right: 0px;
+    }
+    to{
+        width:27vw ;
+        margin-right: 27vw;
+    }
+}
+#photo>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 15vw;
+}
+#thinking{
+    width: 23.4vw;
+    height: 2.4vh;
+    background-color:#F2F7A1;
+    position: relative;
+    left:0.15vw;
+    top: 0.32vh;
+    border-radius: 10px;
+    animation:thinking 5s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes thinking {
+    from{
+        width: 0vw;
+        background-color: red;
+        margin-right: 0px;
+    }
+    to{
+        width:23.4vw ;
+        margin-right: 23.4vw;
+    }
+}
+#thinking>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 15vw;
+}
+#progamming{
+    width: 22.2vw;
+    height: 2.4vh;
+    background-color:#F2F7A1;
+    position: relative;
+    left:0.15vw;
+    top: 0.32vh;
+    border-radius: 10px;
+    animation:progamming 5s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes progamming {
+    from{
+        width: 0vw;
+        background-color: red;
+        margin-right: 0px;
+    }
+    to{
+        width:22.2vw ;
+        margin-right: 22.2vw;
+    }
+}
+#progamming>h3{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    left: 15vw;
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+}
+
+/*mobile size---------------------------*/
+
+@media all and ( max-width: 500px)and (min-width: 325px){
+
+    .div1 {
+        width: 60vw;
+        aspect-ratio: 1/1;
+    }
+
+    .div1 > div > img {
+        width: 10vw;
+    }
+
+    header > nav > a {
+        margin: 1.11vw;
+        font-size: 0.74vw;
+    }
+    #mob-nav {
+        display: none;
+    }
+    #web-nav {
+        display: none;
+    }
+    #btn-on {
+        display: block;
+        width: 8vw;
+        left: 87vw;
+        position: relative;
+        top: -14vh;
+
+    }
+
+    #im1 {
+        width: 70vw;
+        height: 51vh;
+        border-radius: 100%;
+        position: relative;
+        /*right: 25vw;*/
+         left: 12vw;
+    }
+    #im1>img{
+        width: 60vw;
+        height: 51vh;
+        border-radius: 100%;
+        position: relative;
+        left: 4vw;
+
+    }
+    header {
+        height: 10vh;
+    }
+    .sec1>h1{
+        font-size: 10vw;
+        position: relative;
+        left: 10vw;
+        top: 20vh;
+    }
+    .sec1>p {
+        font-size: 6vw;
+        position: relative;
+        left: 10vw;
+        top: 20vh;
+    }
+    #div2{
+       position: relative;
+       top: 25vh;
+       left: 1vw;
+    }
+    #div2>a>img{
+       width: 15vw;
+        transition-property: width;
+        transition-duration: 0.5s;
+    }
+    #div2>a{
+        width: 15vw;
+    }
+    #div2>a>img:hover{
+        width:17vw;
+    }
+    .sec1>button{
+          position: relative;
+          top: 19vh;
+          width: 30vw;
+          height: 6.8vh;
+    }
+    #d1{
+        display: none;
+    }
+    #d2{
+        display: none;
+    }
+
+    #h1{
+       width: 50vw;
+        height: 10vh;
+        left: 25vw;
+
+    }
+    .sec2{
+        top: 40vh;
+    }
+    .sec2>img{
+        width: 70vw;
+        height: 51vh;
+        left: 12vw;
+        top: 1vh;
+    }
+    .sec2>div>p{
+        position: relative;
+        top: 60vh;
+        font-size: 5vw;
+        right: 20vw;
+    }
+    #div10{
+         width: 70vw;
+        position: relative;
+    }
+    .sec3{
+        top: 60vh;
+    }
+
+    .sec3>h3{
+        font-size: 5vw;
+        /*top: 10vh;*/
+        left: 0;
+    }
+    .sec3>div{
+        top: 24vh;
+        left: 40vw;
+        width: 50vw;
+        height: 1.5vh;
+    }
+    #ui{
+        top: 0;
+        width: 50vw;
+        height: 1.5vh;
+    }
+    #progamming{
+        top: 0;
+        width: 50vw;
+        height: 1.5vh;
+    }
+    #photo{
+        top: 0;
+        width: 50vw;
+        height: 1.5vh;
+    }
+    #thinking{
+        top: 0;
+        width: 50vw;
+        height: 1.5vh;
+    }
+    #video{
+        top: 0;
+        width: 50vw;
+        height: 1.5vh;
+    }
+    .sec3>div>div>h3{
+        display: none;
+    }
+    footer>div>a{
+        display: none;
+    }
+    footer{
+        width: 98vw;
+        height: 10vh;
+        top: -2vh;
+        right: 2vw;
+        z-index: 9999;
+    }
+    center{
+    top: 96vh;
+    }
+    footer>div>img{
+        margin-left: 12vw;
+        top: 1vh;
+        right: 6vw;
+    }
+    footer>div{
+        display: contents;
+    }
+    .divlast2{
+        top: 30vh;
+        width: 100vw;
+        height: 70vh;
+        position: fixed;
+    }
+}
+@media all and ( max-width: 800px)and (min-width: 501px){
+
+    .div1 {
+        width: 40vw;
+        aspect-ratio: 1/1;
+    }
+    .div1 > div > img {
+        width: 10vw;
+    }
+
+    header > nav > a {
+        margin: 1.11vw;
+        font-size: 2.5vw;
+
+    }
+    #btn-on {
+        display: none;
+    }
+    #btn-off {
+        display: none;
+    }
+
+    #im1 {
+        width: 35vw;
+        height: 70vh;
+        /*border-radius: 100%;*/
+        position: relative;
+        /*right: 25vw;*/
+        left: 10vw;
+    }
+    #im1>img{
+        width: 35vw;
+        height: 70vh;
+        position: relative;
+    }
+    header {
+        height: 10vh;
+    }
+    .sec1>h1{
+        font-size: 6vw;
+        position: relative;
+        left: 46vw;
+        top: -55vh;
+        /*bottom: 55vh;*/
+    }
+    .sec1>p {
+        font-size: 3vw;
+        position: relative;
+        left: 47vw;
+        top: -50vh;
+    }
+    #div2{
+        position: relative;
+        top: -43vh;
+        left: 50vw;
+    }
+    #div2>a>img{
+        width: 7vw;
+        transition-property: width;
+        transition-duration: 0.5s;
+    }
+    #div2>a{
+        width: 9vw;
+    }
+    #div2>a>img:hover{
+        width:9vw;
+    }
+    .sec1>button{
+        position: relative;
+        top: -50vh;
+        left: 60vw;
+        width: 20vw;
+        height: 6.8vh;
+    }
+    #d1{
+        right: 30vw;
+        /*display: none;*/
+    }
+    #d2{
+        left: 30vw;
+        /*display: none;*/
+    }
+    #h1>h1{
+        left: 4vw;
+    }
+    #h1{
+        width: 25vw;
+        height: 8vh;
+        left: 35vw;
+        top: -25vh;
+
+    }
+    .sec2{
+        top: 40vh;
+    }
+    .sec2>img{
+        width: 40vw;
+        height: 51vh;
+        left: 27vw;
+        top: -30vh;
+
+    }
+    .sec2>div>p{
+        position: relative;
+        top: 40vh;
+        font-size: 5vw;
+        right: 20vw;
+    }
+    #div10{
+        width: 70vw;
+        position: relative;
+    }
+    .sec3{
+        top: 75vh;
+    }
+    .sec3>h1{
+          top: 5vh;
+        font-size: 6vw;
+    }
+    .sec3>h3{
+        font-size: 4vw;
+        top: 10vh;
+        left: 0;
+
+    }
+    .sec3>div{
+        top: 0vh;
+        left: 40vw;
+        width: 50vw;
+        height: 2.5vh;
+    }
+    .sec3>div>div{
+        top: 0;
+        width: 50vw;
+        height: 2.5vh;
+    }
+
+    .sec3>div>div>h3{
+        display: none;
+    }
+    footer>div>a{
+        top: 3vh;
+        position: relative;
+        left: -19vw;
+    }
+    #lasta{
+        top: 0vh;
+        left: 34vw;
+    }
+    footer{
+        width: 98vw;
+        height: 12vh;
+        top: -3vh;
+        right: 1vw;
+        z-index: 9999;
+    }
+    center{
+    top: 93vh;
+    }
+
+    footer>div>img{
+        margin-left: 18vw;
+        top: 1vh;
+        right: 10vw;
+    }
+    footer>div{
+        display: contents;
+    }
+    .divlast2{
+        top: 30vh;
+        width: 100vw;
+        height: 70vh;
+        position: fixed;
+
+    }
+}
+@media all and ( max-width:1115px)and (min-width: 801px){
+    .div1 {
+        width: 40vw;
+        aspect-ratio: 1/1;
+    }
+    .div1 > div > img {
+        width: 10vw;
+    }
+
+    header > nav > a {
+        margin: 1.11vw;
+        font-size: 2vw;
+
+    }
+    #btn-on {
+        display: none;
+    }
+    #btn-off {
+        display: none;
+    }
+
+    #im1 {
+        width: 30vw;
+        height: 80vh;
+        /*border-radius: 100%;*/
+        position: relative;
+        /*right: 25vw;*/
+        left: 10vw;
+    }
+    #im1>img{
+        width: 30vw;
+        height: 80vh;
+        position: relative;
+    }
+    header {
+        height: 10vh;
+    }
+    .sec1>h1{
+        font-size: 6vw;
+        position: relative;
+        left: 46vw;
+        top: -68vh;
+    }
+    .sec1>p {
+        font-size: 3.5vw;
+        position: relative;
+        left: 47vw;
+        top: -70vh;
+
+    }
+    #div2{
+        position: relative;
+        top: -60vh;
+        left: 50vw;
+    }
+    #div2>a>img{
+        width: 7vw;
+        transition-property: width;
+        transition-duration: 0.5s;
+    }
+    #div2>a{
+        width: 9vw;
+    }
+    #div2>a>img:hover{
+        width:9vw;
+    }
+    .sec1>button{
+        position: relative;
+        top: -65vh;
+        left: 60vw;
+        width: 20vw;
+        height: 6.8vh;
+    }
+    #d1{
+        right: 30vw;
+    }
+    #d2{
+        left: 30vw;
+    }
+    #h1>h1{
+        left: 4vw;
+    }
+    #h1{
+        width: 25vw;
+        height: 8vh;
+        left: 35vw;
+        top: -25vh;
+
+    }
+    .sec2{
+        top: 40vh;
+    }
+    .sec2>img{
+        width: 31vw;
+        height: 51vh;
+        left: 63vw;
+        top: -50vh;
+
+    }
+    .sec2>div>p{
+        position: relative;
+        font-size: 3.5vw;
+    }
+    #div10{
+        width: 43vw;
+        height: 48vh;
+        position: relative;
+        left: 20vh;
+        top: 1vh;
+    }
+    .sec3{
+        /*top: 75vh;*/
+    }
+    .sec3>h1{
+        top: 1vh;
+        font-size: 4vw;
+        left: 40vw;
+        width: 18vw;
+
+    }
+    .sec3>h3{
+        font-size: 3vw;
+        top: 10vh;
+        left: 8vw;
+        width: 21vw;
+
+    }
+    .sec3>div{
+        top: -3vh;
+        left: 40vw;
+        /*width: 40vw;*/
+        height: 2.5vh;
+    }
+
+    .sec3>div>div>h3{
+        left: 20vw;
+    }
+    footer>div>a{
+        /*display: none;*/
+        left: -10vw;
+        position: relative;
+        top: 4vh;
+    }
+    footer{
+        width: 97vw;
+        height: 15vh;
+        top: -3vh;
+        right: 1vw;
+        z-index: 9999;
+    }
+    center{
+    top: 12vh;
+    }
+
+    footer>div>img{
+        /*mtop: 1vh;argin-left: 18vw;*/
+        right: 4vw;
+        top: 1vh;
+
+    }
+    #lasta{
+        position: relative;
+        left: 38vw;
+        top: 1vh;
+    }
+    .divlast2{
+        top: 30vh;
+        width: 100vw;
+        height: 70vh;
+        position: fixed;
+
+    }
+}
